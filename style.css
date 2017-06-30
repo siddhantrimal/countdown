@@ -19,3 +19,25 @@ p#daysuntilmsg2{
 	background-color: #FFFFFF;
 	border-bottom: 2px #41598B solid;
 }
+/** -- NO Need to bother with CSS beyond this point -- **/
+p#source{
+	position: fixed;
+	bottom:0px;
+	font-family: monospace;
+	font-size: 5em;
+}
+p#source a{
+	color:#e1e1e1;
+	text-decoration: none;
+}
+p#source a span{
+	vertical-align:top;
+}
+p#source a::before{
+	font-family: fontawesome;
+	content: '\f09b';
+}
+p#source a:hover, p#source a:hover::before{
+	color:#a1a1a1;
+	transition: 1s;
+}
