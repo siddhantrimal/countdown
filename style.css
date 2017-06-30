@@ -1,0 +1,21 @@
+p#daysuntil,p#daysuntilmsg,p#daysuntilmsg2{
+	color: #FFFFFF;
+	font-family: "Josefin Sans",monospace;
+	background-color: #41598B;
+	text-align: center;
+}
+p#daysuntil{
+	font-size: 6vw;
+	padding-bottom: 0px;
+}
+p#daysuntilmsg{
+	font-size: 3vw;
+	margin-top: -6vw;
+}
+p#daysuntilmsg2{
+	font-size: 2vw;
+	margin-top: -3vw;
+	color: #41598B;
+	background-color: #FFFFFF;
+	border-bottom: 2px #41598B solid;
+}
