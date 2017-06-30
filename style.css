@@ -24,7 +24,8 @@ p#source{
 	position: fixed;
 	bottom:0px;
 	font-family: monospace;
-	font-size: 5em;
+	font-size: 7vmin;
+	z-index: -1;
 }
 p#source a{
 	color:#e1e1e1;
