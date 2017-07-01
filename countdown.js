@@ -36,7 +36,7 @@ function selfaware(now){
 		}
 		else{
 			if(x>eventtimes.length){
-				return 7;
+				return eventtimes.length;
 			}
 			x = x + 1;
 			recurseval = knowevents(x);	
@@ -45,7 +45,7 @@ function selfaware(now){
 	}
 	var uff = knowevents(0); //returns the current day of exam value
 	console.log(uff);
-	if(uff<=6){
+	if(uff<eventtimes.length){
 		countDownDate = exam(uff); //dynamically changes the start point of countdown
 		prntevent("UNTIL "+eventwhat[uff],"NEXT EVENT &gt;&gt;"+eventwhat[uff+1],"("+eventtimes[uff]+")","("+eventtimes[uff+1]+")");
 	}
