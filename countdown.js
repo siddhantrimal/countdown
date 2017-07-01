@@ -72,9 +72,12 @@ var x = setInterval(function() {
   "<i class=\"fa fa-circle-o-notch fa-pulse fa-1x fa-fw\"></i>"
   +days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
+  document.title = days + "d " + hours + "h "  + minutes + "m " + seconds + "s "+"Until Exam";
   // If the count down is finished, write some text 
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("daysuntil").innerHTML = "EXAM IS OVER!";
+    document.title = "EXAM IS OVER!";
   }
+
 }, 1000);
