@@ -26,6 +26,9 @@ function selfaware(now){
 						];
 
 	function exam(x){
+		if(document.getElementById("exactExamTime").checked){
+			return new Date(eventtimes[x]+" 12:00").getTime();
+		}
 		return new Date(eventtimes[x]).getTime();
 	}
 
@@ -56,6 +59,8 @@ function selfaware(now){
 	
 	return countDownDate; //sends countdown to auto update function
 }
+
+document.getElementById("exactExamTime").checked = true; //set to EET by default
 
 var x = setInterval(function() {	
   var now = new Date().getTime();
