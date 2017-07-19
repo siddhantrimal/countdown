@@ -41,7 +41,7 @@ function selfaware(now){
 						"Final Project Defense",//Defence
 						"AJP Practical",//AJP Practical
 						"ADBMS Practical",//ADBMS Practical
-						"Internet Tech Practical"//InternetTech Practical
+						"Internet Tech Practical",//InternetTech Practical
 						"8th Sem Begins",//23+
 						"get ready for the world"//23+
 						];
@@ -102,8 +102,8 @@ var x = setInterval(function() {
   // If the count down is finished, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("daysuntil").innerHTML = "EXAM IS OVER!";
-    document.title = "EXAM IS OVER!";
+    document.getElementById("daysuntil").innerHTML = "8th Sem Begins";
+    document.title = "8th Sem Begins";
   }
 
 }, 1000);
