@@ -11,7 +11,18 @@ function selfaware(now){
 						"July 17, 2017",//InfoRet
 						"July 20, 2017",//DA
 						"July 21, 2017",//NSA
-						"July 23, 2017"//SPM
+						"July 23, 2017",//SPM
+						"July 30, 2017",//Final Draft Approval
+						"July 31, 2017",//Final Draft Approval
+						"August 1, 2017",//Final Draft Error Correction
+						"August 2, 2017",//Printing Binding Final Report and, Submission
+						"August 2, 2017",//Printing Binding Final Report and, Submission
+						"August 4, 2017",//Approval, Presentation, External Pre-Evaluation
+						"August 6, 2017"//Defence
+						"August 9, 2017",//AJP Practical
+						"August 10, 2017",//ADBMS Practical
+						"August 11, 2017",//InternetTech Practical
+						"August 20, 2017"//8thsem begins
 						];
 	var eventwhat = [
 						"7th Sem EXAM STARTS: DAY-1 ADBMS Exam",//7
@@ -21,8 +32,18 @@ function selfaware(now){
 						"Day-5 Database Administration Exam",//20
 						"Day-6 Network and System Administration Exam",//21
 						"Day-7 Software Project Management Exam",//23
-						"END OF THEORY EXAMS",//23+
-						"Get Ready for Practical Exams"//23+
+						"Supervisor/HOD Final Draft Approval",//Final Draft Approval
+						"Supervisor/HOD Final Draft Approval",//Final Draft Approval
+						"Correct Errors on Final Draft",//Final Draft Error Correction
+						"Print/Bind + Digital Submission",//Printing Binding Final Report and, Submission
+						"Print/Bind + Digital Submission",//Printing Binding Final Report and, Submission
+						"HOD/Sup Approval, Presentation, Pre-Evaluation",//Approval, Presentation, External Pre-Evaluation
+						"Final Project Defense"//Defence
+						"AJP Practical",//AJP Practical
+						"ADBMS Practical",//ADBMS Practical
+						"Internet Tech Practical"//InternetTech Practical
+						"8th Sem Begins",//23+
+						"get ready for the world"//23+
 						];
 
 	function exam(x){
