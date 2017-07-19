@@ -18,7 +18,7 @@ function selfaware(now){
 						"August 2, 2017",//Printing Binding Final Report and, Submission
 						"August 2, 2017",//Printing Binding Final Report and, Submission
 						"August 4, 2017",//Approval, Presentation, External Pre-Evaluation
-						"August 6, 2017"//Defence
+						"August 6, 2017",//Defence
 						"August 9, 2017",//AJP Practical
 						"August 10, 2017",//ADBMS Practical
 						"August 11, 2017",//InternetTech Practical
