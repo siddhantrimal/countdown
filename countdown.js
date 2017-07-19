@@ -38,7 +38,7 @@ function selfaware(now){
 						"Print/Bind + Digital Submission",//Printing Binding Final Report and, Submission
 						"Print/Bind + Digital Submission",//Printing Binding Final Report and, Submission
 						"HOD/Sup Approval, Presentation, Pre-Evaluation",//Approval, Presentation, External Pre-Evaluation
-						"Final Project Defense"//Defence
+						"Final Project Defense",//Defence
 						"AJP Practical",//AJP Practical
 						"ADBMS Practical",//ADBMS Practical
 						"Internet Tech Practical"//InternetTech Practical
