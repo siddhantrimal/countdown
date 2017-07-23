@@ -48,7 +48,7 @@ function selfaware(now){
 
 	function exam(x){
 		if(document.getElementById("exactExamTime").checked){
-			return new Date(eventtimes[x]+" 12:00").getTime();
+			return new Date(eventtimes[x]+" 06:15").getTime();
 		}
 		return new Date(eventtimes[x]).getTime();
 	}
