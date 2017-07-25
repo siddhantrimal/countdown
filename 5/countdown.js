@@ -83,8 +83,8 @@ var x = setInterval(function() {
   // If the count down is finished, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("daysuntil").innerHTML = "8th Sem Begins";
-    document.title = "8th Sem Begins";
+    document.getElementById("daysuntil").innerHTML = "6th Sem Begins";
+    document.title = "6th Sem Begins";
   }
 
 }, 1000);
